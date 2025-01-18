@@ -41,9 +41,6 @@
                  &kp TAB   &kp A   &kp S      &kp D    &kp F     &kp G     &kp H     &kp J       &kp K     &kp L   &kp SEMI  &kp QUOT
                  &kp LSHFT &kp Z   &kp X      &kp C    &kp V     &kp B     &kp N     &kp M       &kp COMMA &kp DOT &kp FSLH  &kp RET
                                    &kp LCTRL  &kp LGUI &mo NAV_L &kp SPACE &kp SPACE &mo NUM_L   &kp RALT  &kp RCTRL
-                                  
-
-&kp LCTRL &kp LALT &kp SPACE &kp SPACE &mo NUM_L &mo NAV_L &trans &trans
              >;
          };
 
@@ -56,7 +53,6 @@ bindings = <
         &kp DEL         &trans      &kp LEFT    &kp UP      &kp DOWN    &trans   &trans         &kp MINUS   LS(EQUAL)   LS(LBKT)    LS(RBKT)    LS(BSLH)
         &trans          &trans      &trans      &kp DOWN    &trans      &trans   &trans         &trans      &kp EQUAL   &kp LBKT    &kp RBKT    &trans
                                     &trans      &trans      &trans      &trans   &trans         &trans      &trans      &trans     
-
             >;
         };
 
