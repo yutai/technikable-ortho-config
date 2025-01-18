@@ -12,19 +12,18 @@
 #define NUM_L 2
 #define SYM_L 3
 
-/ {
-    /* Example: Wrap all top-level nodes in / { ... }; */
-    &soft_off {
-        hold-time-ms = <5000>;
-    };
-    /* Label the conditional_layers node at top-level. */
-    conditional_layers: conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <NAV_L NUM_L>;
-            then-layer = <SYM_L>;
+/   {
+        chosen {
+           zmk,matrix_transform = &ortho_transform;
         };
-    };
+    
+        conditional_layers {
+            compatible = "zmk,conditional-layers";
+        	tri_layer {
+        	    if-layers = <NAV_L NUM_L>;
+        	    then-layer = <SYM_L>;
+        	};
+        };
 
     &keymap {
         compatible = "zmk,keymap";
