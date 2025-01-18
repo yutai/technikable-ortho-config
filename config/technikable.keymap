@@ -14,11 +14,6 @@
 #define NUM_L 2
 #define SYM_L 3
 
-// Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
-&quick_tap {
-    quick_tap_ms = <200>;
-};
-
 &soft_off {
     hold-time-ms = <5000>; // Only turn off if the key is held for 5 seconds or longer.
 };
