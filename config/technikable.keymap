@@ -14,11 +14,9 @@
 
 / {
     /* Example: Wrap all top-level nodes in / { ... }; */
-
     &soft_off {
         hold-time-ms = <5000>;
     };
-
     /* Label the conditional_layers node at top-level. */
     conditional_layers: conditional_layers {
         compatible = "zmk,conditional-layers";
