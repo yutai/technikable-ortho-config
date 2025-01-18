@@ -33,6 +33,42 @@
     keymap {
         compatible = "zmk,keymap";
 
+macro_opt_cmd_1: macro_opt_cmd_1 {
+	    compatible = "zmk,behavior-macro";
+	    #binding-cells = <0>;
+	    bindings = <&kp LALT &kp LGUI &kp N1>;
+	};
+	
+	macro_opt_cmd_2: macro_opt_cmd_2 {
+	    compatible = "zmk,behavior-macro";
+	    #binding-cells = <0>;
+	    bindings = <&kp LALT &kp LGUI &kp N2>;
+	};
+	
+	macro_cmd_sft_8: macro_cmd_sft_8 {
+	    compatible = "zmk,behavior-macro";
+	    #binding-cells = <0>;
+	    bindings = <&kp LGUI &kp LSHIFT &kp N8>;
+	};
+	
+	macro_cmd_sft_7: macro_cmd_sft_7 {
+	    compatible = "zmk,behavior-macro";
+	    #binding-cells = <0>;
+	    bindings = <&kp LGUI &kp LSHIFT &kp N7>;
+	};
+	
+	macro_cmd_sft_4: macro_cmd_sft_4 {
+	    compatible = "zmk,behavior-macro";
+	    #binding-cells = <0>;
+	    bindings = <&kp LGUI &kp LSHIFT &kp N4>;
+	};
+	
+	macro_cmd_ctrl_sft_4: macro_cmd_ctrl_sft_4 {
+	    compatible = "zmk,behavior-macro";
+	    #binding-cells = <0>;
+	    bindings = <&kp LGUI &kp LCTRL &kp LSHIFT &kp N4>;
+	};
+
          base_layer {
              label = "Base";
              bindings = <
