@@ -49,10 +49,10 @@
             
 
 bindings = <
-        &kp TILDE       LS(N1)      LS(N2)      LS(N3)      LS(N4)      LS(N5)   LS(N6)         LS(N7)      LS(N8)      LS(N9)      LS(N0)      &trans
-        &kp DEL         &trans      &kp LEFT    &kp UP      &kp DOWN    &trans   &trans         &kp MINUS   LS(EQUAL)   LS(LBKT)    LS(RBKT)    LS(BSLH)
-        &trans          &trans      &trans      &kp DOWN    &trans      &trans   &trans         &trans      &kp EQUAL   &kp LBKT    &kp RBKT    &trans
-                                    &trans      &trans      &trans      &trans   &trans         &trans      &trans      &trans     
+        &kp TILDE       &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT  &kp CARET      &kp AMPS    &kp ASTRK   &kp LPAR    &kp RPAR    &trans
+        &kp DEL         &trans      &kp LEFT    &kp UP      &kp DOWN    &trans     &trans         &kp MINUS   &kp EQUAL   &kp LBKT    &kp RBKT    &kp BSLH
+        &trans          &trans      &trans      &kp DOWN    &trans      &trans     &trans         &trans      &kp EQUAL   &kp LBKT    &kp RBKT    &trans
+                                    &trans      &trans      &trans      &trans     &trans         &trans      &trans      &trans     
             >;
         };
 
