@@ -34,35 +34,38 @@
 	};
     };
 
-macros {
-    macro_opt_cmd_1 {
-        label = "OPT+CMD+1";
-        bindings = <&kp LALT &kp LGUI &kp N1>;
-    };
-    macro_opt_cmd_2 {
-        label = "OPT+CMD+2";
-        bindings = <&kp LALT &kp LGUI &kp N2>;
-    };
-    macro_cmd_sft_8 {
-        label = "CMD+SFT+8";
-        bindings = <&kp LGUI &kp LSHIFT &kp N8>;
-    };
-    macro_cmd_sft_7 {
-        label = "CMD+SFT+7";
-        bindings = <&kp LGUI &kp LSHIFT &kp N7>;
-    };
-    macro_cmd_sft_4 {
-        label = "CMD+SFT+4";
-        bindings = <&kp LGUI &kp LSHIFT &kp N4>;
-    };
-    macro_cmd_ctrl_sft_4 {
-        label = "CMD+CTRL+SFT+4";
-        bindings = <&kp LGUI &kp LCTRL &kp LSHIFT &kp N4>;
-    };
-};
+
 
     keymap {
         compatible = "zmk,keymap";
+
+
+	macros {
+	    macro_opt_cmd_1 {
+	        label = "OPT+CMD+1";
+	        bindings = <&kp LALT &kp LGUI &kp N1>;
+	    };
+	    macro_opt_cmd_2 {
+	        label = "OPT+CMD+2";
+	        bindings = <&kp LALT &kp LGUI &kp N2>;
+	    };
+	    macro_cmd_sft_8 {
+	        label = "CMD+SFT+8";
+	        bindings = <&kp LGUI &kp LSHIFT &kp N8>;
+	    };
+	    macro_cmd_sft_7 {
+	        label = "CMD+SFT+7";
+	        bindings = <&kp LGUI &kp LSHIFT &kp N7>;
+	    };
+	    macro_cmd_sft_4 {
+	        label = "CMD+SFT+4";
+	        bindings = <&kp LGUI &kp LSHIFT &kp N4>;
+	    };
+	    macro_cmd_ctrl_sft_4 {
+	        label = "CMD+CTRL+SFT+4";
+	        bindings = <&kp LGUI &kp LCTRL &kp LSHIFT &kp N4>;
+	    };
+	};
 
         base_layer {
             label = "Base";
